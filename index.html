@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JOBA Technology | Saa ya Kifahari</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+    }
+
+    header img {
+      width: 100%;
+      height: auto;
+      max-height: 450px;
+      object-fit: cover;
+    }
+
+    .intro {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .intro h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .intro p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .why-joba {
+      background: #007BFF;
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .why-joba h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .why-joba ul {
+      max-width: 800px;
+      margin: auto;
+      text-align: left;
+      list-style-type: disc;
+      padding-left: 2rem;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .why-joba li {
+      margin-bottom: 1rem;
+    }
+
+    .contact {
+      background: #f4f4f4;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .contact h3 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 1rem 1.5rem;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      margin-top: 1rem;
+      transition: background 0.3s;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe57;
+    }
+
+    /* New styles for message form */
+    .message-form {
+      background-color: #fff;
+      padding: 2rem;
+      max-width: 600px;
+      margin: 2rem auto;
+      text-align: left;
+      border-top: 4px solid #007BFF;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 6px;
+    }
+
+    .message-form h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      font-family: 'Playfair Display', serif;
+      color: #007BFF;
+    }
+
+    .message-form form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .message-form input,
+    .message-form textarea {
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      resize: vertical;
+    }
+
+    .message-form input[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+      padding: 1rem;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    .message-form input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .intro h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Banner Image -->
+  <header>
+    <img src="Screenshot 2025-06-04 050552saaa.png" alt="Saa ya Kifahari">
+  </header>
+
+  <!-- Intro -->
+  <section class="intro">
+    <h1>Saa ya Kifahari kutoka JOBA Technology</h1>
+    <p>Furahia mchanganyiko wa teknolojia ya kisasa na ubunifu wa hali ya juu. Saa bora kwa hadhi yako.</p>
+  </section>
+
+  <!-- Why Buy Section -->
+  <section class="why-joba">
+    <h2>Kwanini Ununue Kutoka JOBA Technology?</h2>
+    <ul>
+      <li><strong>Ubora wa Juu:</strong> Vifaa vya kudumu na vyenye mvuto.</li>
+      <li><strong>Muundo wa Kipekee:</strong> Unavutia na wa kisasa kabisa.</li>
+      <li><strong>Huduma kwa Wateja:</strong> Msaada wa haraka, kila siku.</li>
+      <li><strong>Uhakika wa Thamani:</strong> Bidhaa bora kwa bei ya haki.</li>
+      <li><strong>Imani ya Wateja:</strong> Maelfu ya wateja wameridhika.</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h3>Wasiliana Nasi Kupitia WhatsApp</h3>
+    <p>Bofya kitufe hapa chini kutuandikia moja kwa moja:</p>
+    <a class="whatsapp-btn" href="https://wa.me/255699652959" target="_blank">
+      Tuma Ujumbe WhatsApp
+    </a>
+  </section>
+
+  <!-- Message Form Section -->
+  <section class="message-form">
+    <h2>Tuachie Ujumbe</h2>
+    <form action="tuma_ujumbe.php" method="post">
+      <label for="jina">Jina:</label><br>
+      <input type="text" id="jina" name="jina" required><br>
+
+      <label for="barua">Barua pepe:</label><br>
+      <input type="email" id="barua" name="barua" required><br>
+
+      <label for="ujumbe">Ujumbe wako:</label><br>
+      <textarea id="ujumbe" name="ujumbe" rows="5" required></textarea><br>
+
+      <input type="submit" value="Tuma Ujumbe">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 JOBA Technology. Haki zote zimehifadhiwa.
+  </footer>
+
+</body>
+</html>
